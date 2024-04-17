@@ -1,21 +1,44 @@
 const header = document.getElementById("header");
 header.innerHTML = `
+<a href="/index.html" id="main-index">main</a>
 
-<div>
-<a href="#">Useless Link</a>
-<ul>
-  <li>
-    <a href="#">Dropdown Link</a>
-    <ul>
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-    </ul>
-  </li>
-</ul>
+<div class="dropdown">
+  <button>Mini proyects</button>
+  <div class="content">
+    <a href="/random-color/randomColor.html">Random Color</a>
+    <a href="/color-rgb/color-rgb.html">Color RGB</a>
+    <a href="">Hola</a>
+    <a href="">Hola</a>
+  </div>
 </div>
 
 `;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 
 const profile = document.querySelector('.profile');
@@ -37,7 +60,12 @@ document.addEventListener("click", (event) => {
     }
 });
 
-/*<style>
+
+
+
+
+
+<style>
 div {background-color: green;}
 div a {
   text-decoration: none;
