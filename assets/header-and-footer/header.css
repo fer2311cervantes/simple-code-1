@@ -1,6 +1,6 @@
 :root {
     --header: #141212;
-    --header-light: #2e2a2a;
+    --header-light: #272424;
     --text: #ffffff;
 }
 
@@ -18,7 +18,7 @@
     color: var(--text);
     text-decoration: none;  /* no link style */
     padding: 1em 1.5em;
-    border-radius: 0.1em;
+    border-radius: 0.5em;
     &:hover{
         background-color: var(--header-light);
     }
@@ -38,6 +38,7 @@
     cursor: pointer;
     user-select: none; /* the user can´t select text */
     font-size: 20px;
+    border-radius: 0.5em;
 }
 
 .dropdown a{

@@ -3,7 +3,7 @@ header.innerHTML = `
 <a href="/index.html" id="main-index">main</a>
 
 <div class="dropdown">
-  <button>Mini proyects</button>
+  <button type="button">Mini proyects</button>
   <div class="content">
     <a href="/random-color/randomColor.html">Random Color</a>
     <a href="/color-rgb/color-rgb.html">Color RGB</a>
