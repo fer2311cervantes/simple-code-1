@@ -3,17 +3,24 @@ header.innerHTML = `
 <a href="/index.html" id="main-index">main</a>
 
 <div class="dropdown">
-  <button type="button">Mini proyects</button>
+<a class="dropdown-button">Mini proyects</a>
   <div class="content">
     <a href="/random-color/randomColor.html">Random Color</a>
     <a href="/color-rgb/color-rgb.html">Color RGB</a>
-    <a href="">Hola</a>
+    <a href="">hola</a>
     <a href="">Hola</a>
   </div>
 </div>
 
 `;
 
+//  <button type="button" class="dropdown-button">Mini proyects</button>
+
+/**
+ * 
+ *   class="dropdown-button"  ->   .dropdown-button 
+ * 
+ *  */ 
 
 
 

@@ -12,10 +12,15 @@ const generateColor = () => {
   return color;
 }
 
-colorButton.addEventListener( "click", ()=>{
+const changeColor = () =>{
   let randomNumber = generateColor();
   colorText.innerText = randomNumber;
   //colorButton.style.backgroundColor = randomNumber;
   document.body.style.backgroundColor = randomNumber;
+}
+changeColor();
+
+colorButton.addEventListener( "click", ()=>{
+  changeColor();
 })
 

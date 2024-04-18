@@ -9,7 +9,7 @@
 
 body{
   height: 100vh;
-  background-color: var(--color-first);
+  /* background-color: var(--color-first); */
   font-family:sans-serif;
   /*  text-align: center;
       align-items: center;  vertical */

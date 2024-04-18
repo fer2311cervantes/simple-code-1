@@ -11,6 +11,7 @@
     padding: 20px;
     justify-content: start;
     font-family:sans-serif;
+    font-size: 20px;
 }
 
 #main-index{
@@ -30,14 +31,13 @@
     display: inline-block;
 }
 
-.dropdown button{
+.dropdown .dropdown-button{
     background-color: var(--header);
     color: var(--text);
-    padding: 0.5em 1em;
+    padding: 1em 1em;
     border: none;
     cursor: pointer;
-    user-select: none; /* the user can´t select text */
-    font-size: 20px;
+    /*user-select: none;    the user can´t select text */
     border-radius: 0.5em;
 }
 
@@ -63,7 +63,7 @@
 }
 
 
-.dropdown:hover button{
+.dropdown:hover .dropdown-button{
     background-color: var(--header-light);
 }
 
