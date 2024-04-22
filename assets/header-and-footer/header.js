@@ -1,13 +1,15 @@
 const header = document.getElementById("header");
 header.innerHTML = `
-<a href="/index.html" id="main-index">main</a>
+<a href="/index.html" id="main-index">
+  <img id="home-page" src="/assets/images/Octopus1-removebg.png" alt="octopus logo">
+</a>
 
 <div class="dropdown">
 <a class="dropdown-button">Mini proyects</a>
   <div class="content">
     <a href="/random-color/randomColor.html">Random Color</a>
     <a href="/color-rgb/color-rgb.html">Color RGB</a>
-    <a href="">hola</a>
+    <a href="/chronometer_v1/chronometer.html">Chronometer</a>
     <a href="">Hola</a>
   </div>
 </div>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="chronometer.css">
+  <link rel="stylesheet" href="/assets/header-and-footer/header.css">
+  <link rel="icon" type="image/png" href="/assets/images/Octopus1-removebg.png">
+  <title>Chronometer</title>
+</head>
+
+<body>
+
+  <header id="header"></header>
+
+  <main class="centrar">
+    <div id="container">    <!-- class="centrar" -->
+      <p id="message" class="text">00:00:00</p>
+      <div class="centrar">
+        <button type="button" id="button-start"><img src="img/play-fill.png" alt="pause"></button>
+        <button type="button" id="button-pause"><img src="img/pause-fill.png" alt="pause"></button>
+        <button type="button" id="button-stop"><img src="img/stop-fill.png" alt="pause"></button>
+        <button type="button" id="button-reset"><img src="img/time-past.png" alt="pause"></button>
+        <button type="button" id="button-split"><img src="img/stop.png" alt="pause"></button>
+      </div> 
+      <ul id="split-list"></ul>
+    </div>
+  </main>
+
+  <script src="/assets/header-and-footer/header.js"></script>
+  <script src="chronometer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-text: #b6935f;
+    --button: #a76f20;
+    --button-hover: #8d4e0c;
+}
+
+main{
+    height: 90vh;
+    background-color: #0e0c2c;
+    background-image: url(/assets/images/nightcafe_ship-in-storm.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #container{
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    padding: 10%;
+    text-align: center;
+}
+
+main p{
+    color: var(--text-text);
+    font-size: 100px;  
+}
+
+button{
+    padding: 1em 2em;
+    margin: 0.5em;
+    border-radius: 1em;
+    border-style: none;
+    font-size: 1em;
+    background-color: var(--button);
+    cursor: pointer;
+    &:active{
+        transform: scale(0.95);
+    }
+    &:hover{
+        background-color: var(--button-hover);
+    }
+}
+
+#split-list li{
+    font-size: 3em;
+    list-style: none;
+    color: var(--text-text);
+}
